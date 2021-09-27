@@ -17,9 +17,10 @@ public class CupTest {
 
         Cup c3 = new Cup(16, true, 12);
         System.out.println(c3);
+
         Cup c4 = c1;
         c1 = null;
-
+        
         c4 = c1;
         System.out.println(c1);
         System.out.println(c4);
